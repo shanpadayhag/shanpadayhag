@@ -37,11 +37,7 @@
 
 ## ➕ Other
 
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)
-
-## 📚 Study Journey
-
-[![roadmap.sh](https://roadmap.sh/card/tall/6771418670129741a8ec664e?variant=dark)](https://roadmap.sh)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=shanpadayhag&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
@@ -50,6 +46,10 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=shanpadayhag&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
+
+## 📈 Progress
+
+[![roadmap.sh](https://roadmap.sh/card/tall/6771418670129741a8ec664e?variant=dark)](https://roadmap.sh)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=shanpadayhag&icon=0&color=12)](https://visitcount.itsvg.in)
