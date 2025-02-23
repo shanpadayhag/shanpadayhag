@@ -49,7 +49,7 @@
 
 ## 📈 Progress
 
-[![roadmap.sh](https://roadmap.sh/card/tall/6771418670129741a8ec664e?variant=dark)](https://roadmap.sh)
+[![roadmap.sh](https://roadmap.sh/card/tall/6771418670129741a8ec664e)](https://roadmap.sh)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=shanpadayhag&icon=0&color=12)](https://visitcount.itsvg.in)
