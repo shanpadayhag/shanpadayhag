@@ -1,5 +1,5 @@
 <div>
-  <img src="master-head.jpeg" alt="Master Head" style="width:auto; height:auto" />
+  <img src="master-head.png" alt="Master Head" style="width:auto; height:auto" />
 </div>
 
 <h1 align="center">Ich grüße Sie 🙏 I'm Shan Padayhag</h1>
