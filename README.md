@@ -4,7 +4,7 @@
 
 <h1 align="center">Ich grüße Sie 🙏 I'm Shan Padayhag</h1>
 
-<h4 align="left">🌟 With a solid background in software engineering, I'm now focused on advancing my skills in cybersecurity—particularly in penetration testing and ethical hacking. My current learning journey revolves around offensive security, including network exploitation, vulnerability assessment, and refining my bug bounty workflow. I aim to build a long-term career in offensive security, contributing to securing systems through hands-on, proactive defense strategies.</h4>
+<p align="left">🌟 With a solid background in software engineering, I'm now focused on advancing my skills in cybersecurity—particularly in penetration testing and ethical hacking. My current learning journey revolves around offensive security, including network exploitation, vulnerability assessment, and refining my bug bounty workflow. I aim to build a long-term career in offensive security, contributing to securing systems through hands-on, proactive defense strategies.</p>
 
 <div align="center">
   <a href="https://github.com/shanpadayhag" target="_blank">
@@ -28,7 +28,7 @@
   <tr>
     <td align="left" valign="middle" width="66%">
       <h3>💫 About Me</h3>
-      <h4>🔐 I'm currently focused on strengthening my cybersecurity profile—diving deep into penetration testing and ethical hacking to prepare for a role in offensive security.<br>🤝 I'm looking to collaborate on security-focused projects, CTF challenges, or red team simulations.<br>🧠 I'm looking for help with mastering advanced pentesting techniques, especially in web app and mobile security.<br>🌱 I'm currently learning network exploitation, vulnerability assessment tools, and refining my bug bounty workflow.<br>💬 Ask me about penetration testing, cybersecurity fundamentals, or software engineering.<br>⚡️ Fun fact: Table tennis helps me serve up fresh ideas!</h4>
+      <p>🔐 I'm currently focused on strengthening my cybersecurity profile—diving deep into penetration testing and ethical hacking to prepare for a role in offensive security.<br>🤝 I'm looking to collaborate on security-focused projects, CTF challenges, or red team simulations.<br>🧠 I'm looking for help with mastering advanced pentesting techniques, especially in web app and mobile security.<br>🌱 I'm currently learning network exploitation, vulnerability assessment tools, and refining my bug bounty workflow.<br>💬 Ask me about penetration testing, cybersecurity fundamentals, or software engineering.<br>⚡️ Fun fact: Table tennis helps me serve up fresh ideas!</p>
     </td>
     <td align="right" valign="middle" width="34%">
       <img alt="coding-gif" width="450" src="introduction.jpeg">
