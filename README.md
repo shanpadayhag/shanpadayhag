@@ -60,8 +60,41 @@
 <h3 align="center">📚 Languages & Tools I’ve Worked With</h3>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,nodejs,mongodb,gitlab,raspberrypi,react,nextjs,tailwind" /><br>
-    <img src="https://skillicons.dev/icons?i=bootstrap,html,css,vscode,github,git,notion,figma,pycharm" /><br>
-    <img src="https://skillicons.dev/icons?i=c,bash,kali,arch,ubuntu,python,javascript,mysql,dotnet" /><br>
-    <img src="https://skillicons.dev/icons?i=cpp,cs,vim,java,htmx,debian,neovim,atom,pwsh" /><br>
+  <img src="https://skillicons.dev/icons?i=rust,c,java,ts,js,php,python,html,css" /><br>
+    <img src="https://skillicons.dev/icons?i=actix,spring,laravel,nestjs,angular,nextjs,tailwindcss,astro,react" /><br>
+    <img src="https://skillicons.dev/icons?i=kali,linux,ubuntu,docker,postman,git,vim,bash,vscode" /><br>
+    <img src="https://skillicons.dev/icons?i=aws,cloudflare,kubernetes,nginx,postgres,mysql,mongodb,redis,vercel" /><br>
 </div>
+
+<div align="center">
+  <h3>⭐️ Best Repositories</h3>
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <a href="https://github.com/shanpadayhag/event-management-system-angular">
+        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=event-management-system-angular&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" /></a>
+    <a href="https://github.com/shanpadayhag/event-service-java-spring-boot">
+        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=event-service-java-spring-boot&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" />
+    </a>
+</div>
+
+<h3>💻 Tech Stack:</h3>
+<br/>
+<div align="center">
+   <img src="https://img.shields.io/badge/rust-%23d84800?style=for-the-badge&logo=rust" alt="Rust" />
+  <img src="https://img.shields.io/badge/aws%20lambda-%23f78e05?style=for-the-badge&logo=awslambda&logoColor=white" alt="AWS Lambda" />
+  <img src="https://img.shields.io/badge/aws%20api%20gateway-%23FF4F8B?style=for-the-badge&logo=amazonapigateway&logoColor=white" alt="AWS API Gateway" />
+  <img src="https://img.shields.io/badge/amazon%20s3-%23569A31?style=for-the-badge&logo=amazons3&logoColor=white" alt="Amazon S3" />
+  <img src="https://img.shields.io/badge/amazon%20sqs-%23FF4F8B?style=for-the-badge&logo=amazonsqs&logoColor=white" alt="Amazon SQS" />
+  <img src="https://img.shields.io/badge/mysql-%234479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/mongodb-%2347A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/redis-%23FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/angular-%230F0F11?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  <img src="https://img.shields.io/badge/typescript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/html5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/tailwind%20css-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+</div>
+
+
+
+<h3>⭐ Top Contributed Repo!</h3>
+<br/>
+<img src="https://github-contributor-stats.vercel.app/api?username=shanpadayhag&limit=5&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
