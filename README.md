@@ -69,10 +69,10 @@
 <div align="center">
   <h3>⭐️ Best Repositories</h3>
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <a href="https://github.com/shanpadayhag/event-management-system-angular">
-        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=event-management-system-angular&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" /></a>
-    <a href="https://github.com/shanpadayhag/event-service-java-spring-boot">
-        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=event-service-java-spring-boot&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" />
+    <a href="https://github.com/shanpadayhag/invoice-generator">
+        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=invoice-generator&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" /></a>
+    <a href="https://github.com/shanpadayhag/savings-tracker-service-auth-handler">
+        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=savings-tracker-service-auth-handler&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" />
     </a>
 </div>
 
