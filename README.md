@@ -70,9 +70,9 @@
   <h3>⭐️ Best Repositories</h3>
   <div style="display: flex; justify-content: center; gap: 10px;">
     <a href="https://github.com/shanpadayhag/invoice-generator">
-        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=invoice-generator&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" /></a>
+        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=invoice-generator&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" /></a>
     <a href="https://github.com/shanpadayhag/savings-tracker-web">
-        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=savings-tracker-web&theme=light&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" />
+        <img width=380 src="https://github-readme-stats.vercel.app/api/pin/?username=shanpadayhag&repo=savings-tracker-web&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=2e3440" />
     </a>
 </div>
 
