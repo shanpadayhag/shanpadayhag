@@ -97,11 +97,10 @@ Practices   TDD, SOLID, code review, security-minded engineering
   <img src="https://skillicons.dev/icons?i=rust,php,ts,js,react,nextjs,astro,solidjs,laravel,mysql,redis,docker,aws,linux,git,bash" alt="Rust, PHP, TypeScript, JavaScript, React, Next.js, Astro, SolidJS, Laravel, MySQL, Redis, Docker, AWS, Linux, Git, Bash" />
 </div>
 
-### GitHub snapshot
+### GitHub activity
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shanpadayhag&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Shan Padayhag GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanpadayhag&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shanpadayhag&theme=tokyo-night&hide_border=true" alt="Shan Padayhag GitHub activity graph" />
 </div>
 
 ---
