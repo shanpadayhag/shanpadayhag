@@ -4,9 +4,9 @@
   <h1>Shan Padayhag</h1>
 
   <p>
-    <strong>Backend-leaning full-stack software engineer</strong><br />
+    <strong>Versatile software engineer with a backend edge</strong><br />
     I make slow, calculation-heavy systems faster, steadier, and easier to maintain.
-    Lately, I've been especially drawn to Rust for backend work.
+    I’m leaning into Rust for new backend work while staying comfortable across the rest of the stack.
   </p>
 
   <p>
@@ -33,9 +33,9 @@ I work best where software has real constraints: slow APIs, noisy database usage
 
 ```text
 Focus       Backend performance, product engineering, reliability
-Languages   PHP, TypeScript, JavaScript, SQL
+Languages   Rust, PHP, TypeScript, JavaScript, SQL
 Frontend    Next.js when design matters; vanilla JS or SolidJS when efficiency matters
-Backend     Laravel, REST APIs, Redis queues, API integration, Rust exploration
+Backend     REST APIs, Redis queues, API integration, backend architecture
 Data        MySQL, AWS DocumentDB, IndexedDB
 Ops         AWS EC2, Docker, CI/CD, Linux/Ubuntu
 Practices   TDD, SOLID, code review, security-minded engineering
@@ -69,7 +69,7 @@ Practices   TDD, SOLID, code review, security-minded engineering
 - Software Engineer at Mabizza IT Solutions, Sep 2022 to Jul 2024
 - Lead Developer at Whitelide Solutions, May 2021 to Sep 2022
 - Built and improved production systems with PHP, TypeScript, React, MySQL, Redis, AWS, Docker, CI/CD, and Ubuntu
-- Recently building a stronger love for Rust as a backend language
+- Recently leaning into Rust as the main language for new backend work
 - For frontend work, I reach for Next.js when the experience is design-focused, and vanilla JS or SolidJS when efficiency is the priority
 
 ### Featured projects
@@ -94,7 +94,7 @@ Practices   TDD, SOLID, code review, security-minded engineering
 ### Tools I reach for
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,php,ts,js,react,nextjs,astro,solidjs,laravel,mysql,redis,docker,aws,linux,git,bash" alt="Rust, PHP, TypeScript, JavaScript, React, Next.js, Astro, SolidJS, Laravel, MySQL, Redis, Docker, AWS, Linux, Git, Bash" />
+  <img src="https://skillicons.dev/icons?i=rust,php,ts,js,react,nextjs,astro,solidjs,mysql,redis,docker,aws,linux,git,bash" alt="Rust, PHP, TypeScript, JavaScript, React, Next.js, Astro, SolidJS, MySQL, Redis, Docker, AWS, Linux, Git, Bash" />
 </div>
 
 ### GitHub activity
