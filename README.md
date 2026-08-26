@@ -100,7 +100,7 @@ Practices   TDD, SOLID, code review, security-minded engineering
 ### GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shanpadayhag&theme=tokyo-night&hide_border=true" alt="Shan Padayhag GitHub activity graph" />
+  <img src="https://ghchart.rshah.org/2563eb/shanpadayhag" alt="Shan Padayhag GitHub contribution graph" />
 </div>
 
 ---
