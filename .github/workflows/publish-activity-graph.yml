@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/publish-activity-graph.yml"
+      - ".github/scripts/generate_activity_graph.py"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
@@ -24,34 +25,12 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
-      - name: Check out original graph renderer
-        uses: actions/checkout@v6
-        with:
-          repository: Ashutosh00710/github-readme-activity-graph
-          ref: 0962e9461de815933d462e8b98c7ce566cada8fb
-          path: renderer
-      - name: Set up Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: renderer/package-lock.json
-      - name: Build original graph renderer
-        working-directory: renderer
-        run: npm ci && npm run build
       - name: Render activity graph SVG
         env:
-          TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p site
-          (cd renderer && npm start) > renderer.log 2>&1 &
-          until curl --silent --fail http://127.0.0.1:5100/ >/dev/null; do sleep 1; done
-          curl --silent --show-error --fail \
-            "http://127.0.0.1:5100/graph?username=shanpadayhag&theme=tokyo-night&hide_border=true" \
-            -o site/activity.svg
-          grep -q "Contribution Graph" site/activity.svg
-          touch site/.nojekyll
-          printf '<main><img src="activity.svg" alt="GitHub activity graph"></main>\n' > site/index.html
+          python3 .github/scripts/generate_activity_graph.py --username shanpadayhag
+          grep -q "GitHub contribution signal" site/activity.svg
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
