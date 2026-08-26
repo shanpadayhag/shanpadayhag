@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Generate Shan's self-hosted GitHub contribution graph as an SVG."""
+"""Generate Shan's self-hosted GitHub contribution graph as an SVG.
+
+Previous graph implementation and visual reference:
+https://github.com/ashutosh00710/github-readme-activity-graph
+"""
 
 from __future__ import annotations
 
