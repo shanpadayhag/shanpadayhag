@@ -31,6 +31,8 @@ jobs:
         run: python3 .github/scripts/generate_activity_graph.py
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
