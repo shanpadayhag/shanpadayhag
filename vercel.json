@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/graph.py": {
+      "includeFiles": ".github/scripts/generate_activity_graph.py",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/graph",
+      "destination": "/api/graph"
+    }
+  ]
+}
