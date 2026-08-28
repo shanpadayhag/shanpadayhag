@@ -102,7 +102,7 @@ Practices   TDD, SOLID, code review, security-minded engineering
 ### GitHub activity
 
 <div align="center">
-  <img src="https://shanpadayhag-shans-projects-a71057cb.vercel.app/graph" alt="Shan Padayhag GitHub activity graph" />
+  <img src="https://shanpadayhag.vercel.app/graph" alt="Shan Padayhag GitHub activity graph" />
 </div>
 
 ---
