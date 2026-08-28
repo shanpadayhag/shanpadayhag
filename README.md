@@ -33,7 +33,7 @@ I work best where software has real constraints: slow APIs, noisy database usage
 
 ```text
 Focus       Backend performance, product engineering, reliability
-Languages   Rust, PHP, TypeScript, JavaScript, SQL
+Languages   Rust, TypeScript, JavaScript, SQL
 Frontend    Next.js when design matters; vanilla JS or SolidJS when efficiency matters
 Backend     REST APIs, Redis queues, API integration, backend architecture
 Data        MySQL, AWS DocumentDB, IndexedDB
@@ -68,8 +68,10 @@ Practices   TDD, SOLID, code review, security-minded engineering
 
 - Software Engineer at Mabizza IT Solutions, Sep 2022 to Jul 2024
 - Lead Developer at Whitelide Solutions, May 2021 to Sep 2022
-- Built and improved production systems with PHP, TypeScript, React, MySQL, Redis, AWS, Docker, CI/CD, and Ubuntu
-- Recently leaning into Rust as the main language for new backend work
+- At Mabizza, primarily optimized slow existing production features while continuing to deliver across the full stack
+- Delivered backend services and frontend features for web and mobile application experiences
+- Built and improved production systems with TypeScript, React, MySQL, Redis, AWS, Docker, CI/CD, and Ubuntu
+- Learning Rust to broaden my engineering toolkit and deepen my understanding of systems-level trade-offs
 - For frontend work, I reach for Next.js when the experience is design-focused, and vanilla JS or SolidJS when efficiency is the priority
 
 ### Featured projects
@@ -94,7 +96,7 @@ Practices   TDD, SOLID, code review, security-minded engineering
 ### Tools I reach for
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,php,ts,js,react,nextjs,astro,solidjs,mysql,redis,docker,aws,linux,git,bash" alt="Rust, PHP, TypeScript, JavaScript, React, Next.js, Astro, SolidJS, MySQL, Redis, Docker, AWS, Linux, Git, Bash" />
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,react,nextjs,astro,solidjs,mysql,redis,docker,aws,linux,git,bash" alt="Rust, TypeScript, JavaScript, React, Next.js, Astro, SolidJS, MySQL, Redis, Docker, AWS, Linux, Git, Bash" />
 </div>
 
 ### GitHub activity
