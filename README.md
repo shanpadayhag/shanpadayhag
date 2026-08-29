@@ -70,9 +70,13 @@ Practices   TDD, SOLID, code review, security-minded engineering
 - Lead Developer at Whitelide Solutions, May 2021 to Sep 2022
 - At Mabizza, primarily optimized slow existing production features while continuing to deliver across the full stack
 - Delivered backend services and frontend features for web and mobile application experiences
-- Built and improved production systems with TypeScript, React, MySQL, Redis, AWS, Docker, CI/CD, and Ubuntu
+- Built and improved production systems on PHP and Laravel, with TypeScript, React, MySQL, Redis, AWS, Docker, CI/CD, and Ubuntu
 - Learning Rust to broaden my engineering toolkit and deepen my understanding of systems-level trade-offs
 - For frontend work, I reach for Next.js when the experience is design-focused, and vanilla JS or SolidJS when efficiency is the priority
+
+### How I work
+
+I plan deliberately before writing code: I work out what a feature actually needs, shape the approach, and break it into clear steps, so the work is thought through rather than improvised. I then build it to a consistent engineering standard — clean, single-responsibility code that is tested and efficient. AI tooling speeds up the implementation; the thinking, standards, review, and testing stay mine. I can explain and defend every line I ship, with or without a tool.
 
 ### Featured projects
 
