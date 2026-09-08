@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
-from typing import Sequence
+from typing import Any, Mapping, Sequence
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -33,6 +33,8 @@ COLORS = {
     "accent": "#5794F2",
 }
 
+GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
+
 
 @dataclass(frozen=True)
 class Contribution:
@@ -40,14 +42,66 @@ class Contribution:
     count: int
 
 
-def fetch_contributions(username: str, token: str) -> list[Contribution]:
-    today = datetime.now(timezone.utc).date()
+def parse_contribution_calendar(
+    calendar: Mapping[str, Any], start: date, end: date
+) -> list[Contribution]:
+    """Validate and flatten GitHub's contribution calendar for an exact date range."""
+    if end < start:
+        raise ValueError("Contribution calendar end date cannot precede its start date")
+
+    weeks = calendar.get("weeks")
+    total = calendar.get("totalContributions")
+    if not isinstance(weeks, list) or not isinstance(total, int):
+        raise RuntimeError("GitHub returned a malformed contribution calendar")
+
+    counts: dict[date, int] = {}
+    try:
+        for week in weeks:
+            for item in week["contributionDays"]:
+                contribution_day = date.fromisoformat(item["date"])
+                contribution_count = int(item["contributionCount"])
+                if contribution_count < 0:
+                    raise RuntimeError(
+                        f"GitHub returned a negative contribution count for {contribution_day}"
+                    )
+                if contribution_day in counts:
+                    raise RuntimeError(
+                        f"GitHub returned duplicate contribution data for {contribution_day}"
+                    )
+                counts[contribution_day] = contribution_count
+    except (KeyError, TypeError, ValueError) as error:
+        raise RuntimeError("GitHub returned a malformed contribution day") from error
+
+    expected_days = [
+        start + timedelta(days=offset) for offset in range((end - start).days + 1)
+    ]
+    missing_days = [day for day in expected_days if day not in counts]
+    if missing_days:
+        preview = ", ".join(day.isoformat() for day in missing_days[:3])
+        suffix = "..." if len(missing_days) > 3 else ""
+        raise RuntimeError(f"GitHub omitted contribution data for {preview}{suffix}")
+
+    contributions = [Contribution(day, counts[day]) for day in expected_days]
+    calculated_total = sum(item.count for item in contributions)
+    if calculated_total != total:
+        raise RuntimeError(
+            "GitHub contribution total does not match its daily counts "
+            f"({total} reported, {calculated_total} calculated)"
+        )
+    return contributions
+
+
+def fetch_contributions(
+    username: str, token: str, *, today: date | None = None
+) -> list[Contribution]:
+    today = today or datetime.now(timezone.utc).date()
     start = today - timedelta(days=WINDOW_DAYS - 1)
     query = """
       query($username: String!, $from: DateTime!, $to: DateTime!) {
         user(login: $username) {
           contributionsCollection(from: $from, to: $to) {
             contributionCalendar {
+              totalContributions
               weeks {
                 contributionDays {
                   contributionCount
@@ -70,7 +124,7 @@ def fetch_contributions(username: str, token: str) -> list[Contribution]:
         }
     ).encode("utf-8")
     request = Request(
-        "https://api.github.com/graphql",
+        GITHUB_GRAPHQL_URL,
         data=payload,
         headers={
             "Authorization": f"bearer {token}",
@@ -93,16 +147,11 @@ def fetch_contributions(username: str, token: str) -> list[Contribution]:
     if user is None:
         raise RuntimeError(f"GitHub user @{username} was not found")
 
-    raw_days = user["contributionsCollection"]["contributionCalendar"]["weeks"]
-    counts = {
-        date.fromisoformat(item["date"]): int(item["contributionCount"])
-        for week in raw_days
-        for item in week["contributionDays"]
-    }
-    return [
-        Contribution(start + timedelta(days=offset), counts.get(start + timedelta(days=offset), 0))
-        for offset in range(WINDOW_DAYS)
-    ]
+    try:
+        calendar = user["contributionsCollection"]["contributionCalendar"]
+    except (KeyError, TypeError) as error:
+        raise RuntimeError("GitHub returned a malformed contribution response") from error
+    return parse_contribution_calendar(calendar, start, today)
 
 
 def sample_contributions() -> list[Contribution]:
@@ -159,6 +208,11 @@ def text_element(
 def render_svg(username: str, contributions: Sequence[Contribution]) -> str:
     if len(contributions) != WINDOW_DAYS:
         raise ValueError(f"Expected {WINDOW_DAYS} contribution days, received {len(contributions)}")
+    for index, item in enumerate(contributions):
+        if item.count < 0:
+            raise ValueError(f"Contribution count cannot be negative for {item.day}")
+        if index and item.day != contributions[index - 1].day + timedelta(days=1):
+            raise ValueError("Contribution days must be chronological and contiguous")
 
     total = sum(item.count for item in contributions)
     total_text = f"{total:,}"
