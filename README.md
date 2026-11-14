@@ -103,12 +103,6 @@ I plan deliberately before writing code: I work out what a feature actually need
   <img src="https://skillicons.dev/icons?i=rust,ts,js,react,nextjs,astro,solidjs,mysql,redis,docker,aws,linux,git,bash" alt="Rust, TypeScript, JavaScript, React, Next.js, Astro, SolidJS, MySQL, Redis, Docker, AWS, Linux, Git, Bash" />
 </div>
 
-### GitHub activity
-
-<div align="center">
-  <img src="https://shanpadayhag.vercel.app/graph" alt="Shan Padayhag GitHub activity graph" />
-</div>
-
 ---
 
 <div align="center">
